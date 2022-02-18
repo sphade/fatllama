@@ -1,16 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-header {
+    @apply px-5 py-2 bg-gray-100 text-gray-700  rounded-3xl hover:bg-gray-200 ease-in duration-150;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer utilities {
+  @font-face {
+    font-family: "MuseoSans";
+    src: local("MuseoSans-300.otf"),
+      url(/fonts/MuseoSans-300.otf) format("truetype");
+  }
 }
