@@ -46,9 +46,9 @@ const Categories = () => {
   
   ];
   return (
-    <div className="max-w-[1080px] w-full mx-auto">
+    <div className="max-w-[1080px] w-full mx-auto md:px-0 px-5">
       <h3 className="text-4xl mb-[47px]">Explore our categories</h3>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-11  items-center">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-5 md:gap-11  items-center">
         {items.map(({ src, des }) => (
           <CategoriesItem src={src} des={des} key={src} />
         ))}

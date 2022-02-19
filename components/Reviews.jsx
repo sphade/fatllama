@@ -34,7 +34,7 @@ const Reviews = () => {
       </div>
       <div className=" relative  py-32 flex items-center flex-col  bg-green-800 ">
         <h3 className="text-3xl  text-white">Recent rental reviews</h3>
-        <div className="gap-20 mt-10 max-w-[1096px] w-full grid grid-cols-2 ">
+        <div className="gap-20 mt-10 max-w-[1096px] w-full grid md:grid-cols-2  grid-cols-1 px-5 ">
           <div className="bg-white px-10 p-10 rounded-xl space-y-5">
             <p>
               "This is my second rental with Antonio - great equipment, great
