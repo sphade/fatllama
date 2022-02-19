@@ -195,7 +195,7 @@ export default function Home() {
               </h3>
               <p className="mt-5 ">
                 Pay back your purchases by lending them to people in your area
-                when you're not using them. Do it all worry free with verified
+                when you are not using them. Do it all worry free with verified
                 borrowers and lender protection up to £25,000 per item.
               </p>
               <div className="flex items-center space-x-10 mt-5">
@@ -228,7 +228,7 @@ export default function Home() {
                 Get access to (almost) anything
               </h3>
               <p className="mt-5 ">
-                Why buy the things you’ll only use a few times a month? When you
+                Why buy the things you'll only use a few times a month? When you
                 can rent them for a fraction of the price? More money for you.
                 Less waste for the planet.
               </p>
