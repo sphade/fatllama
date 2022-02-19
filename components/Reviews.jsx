@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 
@@ -52,8 +53,8 @@ const Reviews = () => {
           </div>
           <div className="bg-white px-10 p-10 rounded-xl space-y-5">
             <p>
-              "This is my second rental with Antonio - great equipment, great
-              price and brilliant service!"
+              This is my second rental with Antonio - great equipment, great
+              price and brilliant service!
             </p>
             <div className="flex items-center space-x-5">
               <div className="rounded-full w-[50px] h-[50px] relative overflow-hidden border inline-block">
