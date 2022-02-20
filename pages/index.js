@@ -191,16 +191,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col max-w-[1025px] space-y-20  w-full mx-auto mt-16 px-5">
+        <div className="flex flex-col max-w-[1025px] px-10 md:px-5 space-y-20  w-full mx-auto mt-16 ">
           <div className="flex flex-col-reverse md:flex-row justify-center  space-y-10 md:space-y-0  items-center  ">
             <div className="flex-1">
-              <h3 className="text-blue-500 text-3xl">
+              <h3 className="text-[#030d54] md:font-bold font-semibold mt-10 md:mt-0 text-2xl md:text-3xl">
                 Share your stuff, earn cash
               </h3>
-              <p className="mt-5 ">
-                Pay back your purchases by lending them to people in your area
-                when you are not using them. Do it all worry free with verified
-                borrowers and lender protection up to £25,000 per item.
+              <p className="mt-5 space-y-10 text-[#111111] font-thin">
+                <span className="block">
+                  Pay back your purchases by lending them to people in your area
+                  when you're not using them.
+                </span>
+                <span className="block">
+                  Do it all worry free with verified borrowers and lender
+                  protection up to £25,000 per item.
+                </span>
               </p>
               <div className="flex items-center space-x-10 mt-5">
                 <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
@@ -228,13 +233,17 @@ export default function Home() {
               />
             </div>
             <div className="flex-1">
-              <h3 className="text-blue-500 text-3xl">
+              <h3 className="text-[#030d54]  md:font-bold font-semibold  text-2xl md:text-3xl">
                 Get access to (almost) anything
               </h3>
-              <p className="mt-5 ">
-                Why buy the things you'll only use a few times a month? When you
-                can rent them for a fraction of the price? More money for you.
-                Less waste for the planet.
+              <p className="mt-5 space-y-10 text-[#111111] font-thin">
+                <span className="block">
+                  Why buy the things you’ll only use a few times a month? When
+                  you can rent them for a fraction of the price?{" "}
+                </span>
+                <span className="block">
+                  More money for you. Less waste for the planet.{" "}
+                </span>
               </p>
               <div className="flex items-center space-x-10 mt-5">
                 <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
@@ -245,6 +254,44 @@ export default function Home() {
           </div>
         </div>
         <Reviews />
+        <div className="bg-[#2ccbbb] flex  items-center">
+          <div>
+          <h2>Top searches</h2>
+            <div className="flex gap-10">
+              <div>
+                <h1 className="font-bold text-base text-[#ffffffb4] mb-3">LONDON</h1>
+                <div className="text-base text-white space-y-1">
+                
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                <p>av Equipment</p>
+                </div>
+              </div>
+              <div>
+              <h1>LONDON</h1>
+              </div>
+              <div>
+              <h1>LONDON</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
