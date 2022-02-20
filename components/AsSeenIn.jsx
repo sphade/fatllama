@@ -3,9 +3,9 @@ import React from "react";
 
 const AsSeenIn = () => {
   return (
-    <div className="my-12 space-y-10 flex flex-col justify-center items-center">
+    <div className="my-12 space-y-10 px-10 flex flex-col justify-center items-center">
       <p className="text-gray-400">As seen in</p>
-      <div className="grid  sm:grid-cols-2 md:grid-cols-4 gap-24">
+      <div className="grid  grid-cols-2 md:grid-cols-4 gap-24">
         <Image
           src="/assets/tech-crunch-logo.png"
           alt="hiscox"

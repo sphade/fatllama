@@ -31,18 +31,21 @@ export default function Home() {
       <Header />
       <main className="pb-48">
         <div className="flex flex-col">
-          <div className="flex px-5 md:px-5 lg:px-20 items-center justify-center">
-            <div className="relative bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-bottom md:bg-right bg-[length:250px] sm:bg-[length:450px] md:bg-[length:650px] h-[650px] max-w-full w-full ">
-              <h1 className="text-2xl md:text-7xl text-[#030d54] mb-5 font-bold mt-[75px]  max-w-xs md:max-w-xl w-full">
-                Rent <span className="text-sky-600">Anything</span> from people
-                in your area
+          <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl border mx-auto w-full">
+            <div className="pl-10 pr-3 lg:pl-20  relative ">
+              <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
+                <span className="block">
+                  Rent <span className="text-sky-600">anything</span>
+                </span>{" "}
+                <span className="block">from people in</span>
+                your area
               </h1>
-              <p className="md:text-2xl text-[#979797] mb-[54px] font-thin max-w-lg">
+              <p className="md:text-2xl text-[#808080] mb-[54px] font-thin max-w-lg">
                 Borrow almost anything from people nearby for jobs at home, fun
                 experiences or work.
               </p>
               <Input />
-              <div className="absolute right-[550px] top-[370px]">
+              <div className="absolute right-[100px] top-[370px] hidden md:block">
                 <Image
                   src="/assets/larry-yellow-2.svg"
                   alt="hiscox"
@@ -51,76 +54,76 @@ export default function Home() {
                 />
               </div>
 
-              <div className="flex mt-10 items-center space-x-5">
+              <div className="flex   mt-10 items-center space-x-5 ">
                 <span>or</span>
                 <div className="btn-header inline-block">list an item</div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col gap-5 px-8 justify-center items-center">
           <div>
             <Image
               src="/assets/asset6.svg"
               alt="hiscox"
               width={160}
-              height={100}
+              height={50}
             />
           </div>
           <p className="text-gray-500 text-center">
             Our lender guarantee covers items up to £25,000, in partnership with
             Hiscox insurance
           </p>
-          <p className="btn-header inline-block mt-5">learn more</p>
+          <p className="btn-header inline-block ">learn more</p>
         </div>
         <div className="bg-[#f8f7fd] flex items-center justify-around flex-wrap py-10 mt-10 space-y-10 md:space-y-0">
-        <div className="flex flex-col items-center space-y-2 ">
-        <div>
-          <Image
-            src="/assets/asset6.svg"
-            alt="hiscox"
-            width={60}
-            height={50}
-          />
-        </div>
-        <h4 className="font-medium text-xl">Access More</h4>
-        <p className="text-base text-gray-600">
-          Pursue passions. Get things done.
-        </p>
-      </div>
           <div className="flex flex-col items-center space-y-2 ">
             <div>
               <Image
-                src="/assets/asset6.svg"
+                src="/assets/asset7.svg"
                 alt="hiscox"
                 width={60}
                 height={50}
               />
             </div>
             <h4 className="font-medium text-xl">Access More</h4>
-            <p className="text-base text-gray-600">
+            <p className="text-base font-thin text-[#767676]">
               Pursue passions. Get things done.
             </p>
           </div>
           <div className="flex flex-col items-center space-y-2 ">
             <div>
               <Image
-                src="/assets/asset6.svg"
+                src="/assets/asset8.svg"
                 alt="hiscox"
                 width={60}
                 height={50}
               />
             </div>
-            <h4 className="font-medium text-xl">Access More</h4>
-            <p className="text-base text-gray-600">
-              Pursue passions. Get things done.
+            <h4 className="font-medium text-xl">Save money</h4>
+            <p className="text-base font-thin text-[#767676]">
+              Buy less. Rent for a fraction of the cost.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-2 ">
+            <div>
+              <Image
+                src="/assets/asset9.svg"
+                alt="hiscox"
+                width={60}
+                height={50}
+              />
+            </div>
+            <h4 className="font-medium text-xl">Help the planet</h4>
+            <p className="text-base font-thin text-[#767676]">
+              Live lighter. Reduce waste.
             </p>
           </div>
         </div>
 
         <div className="flex flex-col my-[75px] justify-center items-center ">
-          <div className="max-w-6xl w-full   bg-[#eeeeee] md:rounded-3xl px-12 py-10 flex flex-col ">
-            <h3 className="text-4xl mb-5 text-center md:text-left">
+          <div className="max-w-5xl w-full   bg-[#eeeeee] md:rounded-3xl  px-8 md:px-12 py-10 flex flex-col ">
+            <h3 className="text-3xl mb-5 text-[#030d54] font-semibold text-center md:text-left">
               Fat Llama Enterprise
             </h3>
             <div className="flex md:flex-row flex-col-reverse  justify-start md:justify-around">
@@ -130,8 +133,8 @@ export default function Home() {
                   Rental as a Service, our enterprise offering to help brands
                   and retailers launch their own rental services.
                 </p>
-                <button className="bg-blue-800 px-5 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
-                  Learn More
+                <button className="bg-blue-800 px-7 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+                  Learn more
                 </button>
               </div>
               <div className="mb-10  flex flex-1 items-center justify-around">

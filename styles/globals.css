@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-header {
-    @apply px-5 py-2 bg-gray-100 text-gray-700  rounded-3xl hover:bg-gray-200 ease-in duration-150;
+    @apply px-7 py-2 cursor-pointer bg-gray-100 text-gray-700  rounded-3xl hover:bg-gray-200 ease-in duration-150;
   }
 }
 
@@ -12,6 +12,10 @@
   @font-face {
     font-family: "MuseoSans";
     src: local("MuseoSans-300.otf"),
-      url(/fonts/MuseoSans-300.otf) format("truetype");
+      url(/fonts/MuseoSansRounded300.otf) format("truetype");
   }
 }
+
+
+
+
