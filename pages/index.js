@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Input from "../components/Input";
 import Reviews from "../components/Reviews";
 import RotatingText from "../components/RotatingText";
+import { TopSearches } from "../components/TopSearches";
 
 export default function Home() {
   const rotatingtxt = [
@@ -31,7 +32,7 @@ export default function Home() {
       <Header />
       <main className="pb-48">
         <div className="flex flex-col">
-          <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl border mx-auto w-full">
+          <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
             <div className="pl-8 pr-3 lg:pl-20  relative ">
               <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
                 <span className="block">
@@ -256,44 +257,7 @@ export default function Home() {
           </div>
         </div>
         <Reviews />
-        <div className="bg-[#2ccbbb] flex  items-center">
-          <div>
-          <h2>Top searches</h2>
-            <div className="flex gap-10">
-              <div>
-                <h1 className="font-bold text-base text-[#ffffffb4] mb-3">LONDON</h1>
-                <div className="text-base text-white space-y-1">
-                
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                <p>av Equipment</p>
-                </div>
-              </div>
-              <div>
-              <h1>LONDON</h1>
-              </div>
-              <div>
-              <h1>LONDON</h1>
-              </div>
-            </div>
-          </div>
-        </div>
+       <TopSearches/>
       </main>
     </div>
   );

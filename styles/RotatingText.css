@@ -1,15 +1,17 @@
 /*Vertical Sliding*/
 .slidingVertical {
   display: inline;
-  text-indent: 8px;
+  text-indent: 10px;
 }
-.lastText{
+.lastText {
   animation: fade-in 2s ease forwards 14.5s;
   color: #00abe9;
   opacity: 0;
   overflow: hidden;
   position: absolute;
+  display: inline;
 
+  text-indent: 10px;
 }
 .slidingVertical span {
   animation: topToBottom 12.5s ease forwards 0s;
@@ -47,7 +49,6 @@
   -ms-animation-delay: 12.5s;
   -webkit-animation-delay: 12.5s;
 }
-
 
 /*topToBottom Animation*/
 @-moz-keyframes topToBottom {
@@ -144,6 +145,4 @@
     opacity: 1;
     transform: translateY(0px);
   }
- 
-  
 }
