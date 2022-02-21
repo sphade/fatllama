@@ -28,14 +28,14 @@ function Footer() {
               width={150}
               height={30}
               alt="assets/asset33.png"
-              srcset=""
+              
             />
             <Image
               src="/assets/asset34.png"
               width={150}
               height={50}
               alt="assets/asset34.png"
-              srcset=""
+              
             />
           </div>
           <div className="flex gap-5">
@@ -44,21 +44,21 @@ function Footer() {
               width={40}
               height={40}
               alt="assets/asset33.png"
-              srcset=""
+              
             />
             <Image
               src="/assets/asset36.png"
               width={40}
               height={40}
               alt="assets/asset34.png"
-              srcset=""
+              
             />
             <Image
               src="/assets/asset37.png"
               width={40}
               height={40}
               alt="assets/asset34.png"
-              srcset=""
+              
             />
           </div>
         </div>
