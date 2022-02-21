@@ -32,7 +32,7 @@ export default function Home() {
       <main className="pb-48">
         <div className="flex flex-col">
           <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl border mx-auto w-full">
-            <div className="pl-10 pr-3 lg:pl-20  relative ">
+            <div className="pl-8 pr-3 lg:pl-20  relative ">
               <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
                 <span className="block">
                   Rent <span className="text-sky-600">anything</span>
@@ -160,8 +160,8 @@ export default function Home() {
         </div>
         <Categories />
         <AsSeenIn />
-        <div className="relative bg-[url('/assets/download.svg')] bg-no-repeat bg-center md:h-[750px] bg-[length:200%,120%] md:bg-[length:100%,100%]  flex justify-center space-x-10 items-center py-10 px-5">
-          <div className="w-1/2 ">
+        <div className="relative bg-[url('/assets/download.svg')]  w-full bg-no-repeat bg-[center_center] h-[640px] md:h-[750px]      gap-10 md:bg-[length:100%,100%]   grid md:grid-cols-2   grid-rows-2 md:grid-rows-1 space-x-10 items-center py-10 px-5">
+          <div className=" relative">
             <Image
               src="/assets/asset22.png"
               alt="hiscox"
@@ -170,28 +170,30 @@ export default function Home() {
               objectFit="contain"
             />
           </div>
-          <div className="w-[450px]">
-            <h3 className="text-white text-3xl">Access anything on the go</h3>
+          <div className="">
+            <h3 className="text-white text-3xl font-bold">Access anything on the go</h3>
             <p className="mt-5 text-white">
               Message and rent at the tap of a button. The Fat Llama app is the
               easiest way to find what you need, manage your rentals and
               purchases and get instant updates. Get it now on iOS and Android.
             </p>
             <div className="flex items-center space-x-10 mt-5">
-              <div className="bg-gray-50 rounded-3xl flex items-center border-[1px] px-2  sticky top-0 left-0 overflow-hidden">
-                <input
-                  type="text"
-                  className="w-full h-12 bg-transparent focus:outline-none "
-                  placeholder="find (almost) anything"
-                />
-              </div>
-              <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+              {
+              //   <div className="bg-gray-50 rounded-3xl flex items-center border-[1px] px-2  sticky top-0 left-0 overflow-hidden">
+              //   <input
+              //     type="text"
+              //     className="w-full h-12 bg-transparent focus:outline-none "
+              //     placeholder="find (almost) anything"
+              //   />
+              // </div>
+              }
+              <button className="bg-blue-800 px-5 md:px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
                 Learn More
               </button>
             </div>
           </div>
         </div>
-        <div className="flex flex-col max-w-[1025px] px-10 md:px-5 space-y-20  w-full mx-auto mt-16 ">
+        <div className="flex flex-col max-w-[1025px] px-5 md:px-5 space-y-20  w-full mx-auto mt-16 ">
           <div className="flex flex-col-reverse md:flex-row justify-center  space-y-10 md:space-y-0  items-center  ">
             <div className="flex-1">
               <h3 className="text-[#030d54] md:font-bold font-semibold mt-10 md:mt-0 text-2xl md:text-3xl">
@@ -247,7 +249,7 @@ export default function Home() {
               </p>
               <div className="flex items-center space-x-10 mt-5">
                 <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
-                  Start Earning
+                  Start borrowing
                 </button>
               </div>
             </div>
