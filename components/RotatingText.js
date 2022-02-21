@@ -8,6 +8,7 @@ function RotatingText({ rotatingtxt }) {
           <span key={id}>{text}</span>
         ))}
       </span>
+      <span className="lastText">anything</span>
     </span>
   );
 }

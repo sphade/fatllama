@@ -16,7 +16,7 @@ export default function Home() {
     "bikes",
     "tools",
     "consoles",
-    "anything",
+  
   ];
   return (
     <div className="font-display tracking-wider">
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="pl-8 pr-3 lg:pl-20  relative ">
               <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
                 <span className="block">
-                  Rent <span className="text-sky-600">anything</span>
+                  Rent <span className="text-sky-600"><RotatingText rotatingtxt={rotatingtxt}/></span>
                 </span>{" "}
                 <span className="block">from people in</span>
                 your area
