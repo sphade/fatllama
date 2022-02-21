@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import AsSeenIn from "../components/AsSeenIn";
 import Categories from "../components/Categories";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Input from "../components/Input";
 import Reviews from "../components/Reviews";
@@ -30,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/assets/asset31.png" />
       </Head>
       <Header />
-      <main className="pb-48">
+      <main className="p-">
         <div className="flex flex-col">
           <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
             <div className="pl-8 pr-3 lg:pl-20  relative ">
@@ -257,7 +258,8 @@ export default function Home() {
           </div>
         </div>
         <Reviews />
-       <TopSearches/>
+        <TopSearches />
+        <Footer/>
       </main>
     </div>
   );
