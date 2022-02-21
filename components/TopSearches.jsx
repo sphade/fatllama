@@ -5,9 +5,9 @@ export const TopSearches = () => {
     <div className="bg-[#2ccbbb] flex px-10 relative  flex-col items-center">
       <img
         src="assets/asset29.svg"
-        alt=""
+        alt="assets/asset29.svg"
         className="absolute w-screen -top-[90px] z-0"
-        srcset=""
+        
       />
       <div className="z-20 md:self-center self-start">
         <h1 className="text-white font-bold text-3xl mt:mt-10 md:mt-40">
