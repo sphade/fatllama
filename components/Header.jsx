@@ -9,7 +9,7 @@ function Header() {
     <header className="sticky top-0 left-0 bg-white z-50  h-16 md:h-20 border-b font-display flex items-center px-3 md:px-7 justify-between">
       <Link href="/">
         <a className="inline-block">
-          <Image src="/assets/logo.jpg" width={80} height={80} alt="logo" />
+          <Image src="/assets/logo.jpg" width={70} height={70} alt="logo" />
         </a>
       </Link>
 
