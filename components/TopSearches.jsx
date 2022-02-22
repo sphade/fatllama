@@ -2,7 +2,7 @@ import React from "react";
 
 export const TopSearches = () => {
   return (
-    <div className="bg-[#2ccbbb] flex px-10 relative  flex-col items-center">
+    <div className="bg-[#2ccbbb] flex px-10 relative pb-10 flex-col items-center">
       <img
         src="assets/asset29.svg"
         alt="assets/asset29.svg"

@@ -8,7 +8,7 @@ const CategoriesItem = ({ src, des }) => {
         <Image src={src} alt={src} layout="fill" objectFit="cover" />
       </div>
       <div className="h-[60px]  bg-white justify-center flex items-center">
-        <p className=" text-base px-4 tracking-widest text-gray-600 ">{des}</p>
+        <p className=" text-sm px-4 tracking-widest text-gray-600 ">{des}</p>
       </div>
     </div>
   );
