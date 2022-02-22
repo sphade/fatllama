@@ -11,8 +11,8 @@
 @layer utilities {
   @font-face {
     font-family: "MuseoSans";
-    src: local("MuseoSans-300.otf"),
-      url(/fonts/MuseoSansRounded300.otf) format("truetype");
+    src: local("MuseoSansRounded300.otf"),
+      url(/fonts/MuseoSansRounded300.otf);
   }
 }
 

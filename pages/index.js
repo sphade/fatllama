@@ -31,9 +31,9 @@ export default function Home() {
         <link rel="icon" href="/assets/asset31.png" />
       </Head>
       <Header />
-      <main className="p-">
+      <main className="">
         <div className="flex flex-col">
-          <div className="flex    bg-[url('/assets/assetbg.svg')] mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
+          <div className="flex    bg-[url('/assets/assetbg.svg')]  mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
             <div className="pl-8 pr-3 lg:pl-20  relative ">
               <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
                 <span className="block">
@@ -56,14 +56,14 @@ export default function Home() {
                 />
               </div>
 
-              <div className="flex   mt-10 items-center space-x-5 ">
+              <div className="flex  justify-center   mt-[350px] md:justify-start md:mt-10 items-center space-x-3  md:space-x-5 ">
                 <span>or</span>
                 <div className="btn-header inline-block">list an item</div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-5 px-8 justify-center items-center">
+        <div className="flex mt-[100px] md:mt-[0px] flex-col gap-5 px-8 justify-center items-center">
           <div>
             <Image
               src="/assets/asset6.svg"
@@ -139,7 +139,7 @@ export default function Home() {
                   Learn more
                 </button>
               </div>
-              <div className="mb-10  flex flex-1 items-center justify-around">
+              <div className="mb-10  flex flex-1 items-center space-x-36 md:justify-around">
                 <div className="">
                   <Image
                     src="/assets/asset10.svg"

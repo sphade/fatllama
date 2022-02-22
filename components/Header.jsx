@@ -8,13 +8,8 @@ function Header() {
   return (
     <header className="sticky top-0 left-0 bg-white z-50  h-16 md:h-20 border-b font-display flex items-center px-3 md:px-7 justify-between">
       <Link href="/">
-        <a className="hidden md:inline-block">
-          <Image src="/assets/asset0.svg" width={102} height={40} alt="logo" />
-        </a>
-      </Link>
-      <Link href="/">
-        <a className="inline-block md:hidden">
-          <Image src="/assets/asset1.svg" width={75} height={25} alt="logo" />
+        <a className="inline-block">
+          <Image src="/assets/logo.jpg" width={80} height={80} alt="logo" />
         </a>
       </Link>
 
@@ -60,7 +55,7 @@ function Header() {
           Login or Sign up
         </a>
       </Link>
-      <div className="flex gap-5 items-center hidden">
+      <div className=" gap-5 items-center hidden">
         <p className="text-base hidden md:inline-block text-[#111111]">Manny</p>
         <div className="rounded-full w-[45px] h-[45px] relative overflow-hidden border inline-block">
           <Image
@@ -71,7 +66,7 @@ function Header() {
         </div>
       </div>
 
-      <div className=" cursor-pointer" onClick={() =>  setMenuState(!menuState)}>
+      <div className=" cursor-pointer" onClick={() => setMenuState(!menuState)}>
         <Image src="/assets/asset5.svg" width={24} height={18} alt="menu" />
       </div>
       {menuState ? <HeaderDropDown /> : ""}
