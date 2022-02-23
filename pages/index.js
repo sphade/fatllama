@@ -220,8 +220,9 @@ export default function Home() {
               <Image
                 src="/assets/bookings.png"
                 alt="hiscox"
-                width={600}
-                height={570}
+                width={900}
+                height={900}
+                objectFit="contain"
               />
             </div>
           </div>
@@ -231,8 +232,8 @@ export default function Home() {
               <Image
                 src="/assets/mockup2.png"
                 alt="hiscox"
-                width={850}
-                height={670}
+                width={1000}
+                height={900}
                
               />
             </div>
