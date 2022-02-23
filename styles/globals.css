@@ -11,11 +11,13 @@
 @layer utilities {
   @font-face {
     font-family: "MuseoSans";
-    src: local("MuseoSansRounded300.otf"),
-      url(/fonts/MuseoSansRounded300.otf);
+    src: local("MuseoSansRounded300.otf"), url(/fonts/MuseoSansRounded300.otf);
   }
 }
 
-
-
-
+@layer utilities {
+  :root {
+    --primary: #22c422;
+    --primary-light: #32ce32;
+  }
+}

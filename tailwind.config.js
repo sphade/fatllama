@@ -4,7 +4,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+        primary_light: "var(--primary-light)",
+       
+      },
+    },
     fontFamily: {
       display: ["MuseoSans", "Helvetica"],
     },

@@ -17,7 +17,7 @@ const Input = () => {
         className="w-full outline-none "
         placeholder="Bikes, drones, cameras..."
       />
-      <button className="bg-blue-800 px-5 md:px-8 py-1 md:py-2 rounded-3xl text-white text-lg hover:bg-blue-700 ease-in duration-150">
+      <button className="bg-primary px-5 md:px-8 py-1 md:py-2 rounded-3xl text-white text-lg hover:bg-primary_light ease-in duration-150">
         Search
       </button>
     </div>

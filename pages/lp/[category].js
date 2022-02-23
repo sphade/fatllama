@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header";
 
 function category() {
   return (
-    <div className='text-5xl font-display'>category</div>
-  )
+    <div className="">
+      <Header />
+      categorytext-5xl 
+    </div>
+  );
 }
 
-export default category
+export default category;

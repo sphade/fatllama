@@ -21,19 +21,19 @@ export default function Home() {
   
   ];
   return (
-    <div className="font-display tracking-wider">
+    <div className="">
       <Head>
         <title>Fat Llama | Rent (almost) anything</title>
         <meta
           name="description"
           content="Fat Llama is the trusted marketplace for renting almost anything. Rent out your stuff to earn extra money or rent from others to save, experience more and help the planet."
         />
-        <link rel="icon" href="/assets/asset31.png" />
+        <link rel="icon" href="/assets/28BOOKINGS.png" />
       </Head>
       <Header />
       <main className="">
         <div className="flex flex-col">
-          <div className="flex    bg-[url('/assets/assetbg.svg')]  mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
+          <div className="flex    bg-[url('/assets/illus.png')]  mb-20 bg-no-repeat bg-[center_bottom] md:bg-right bg-[length:95%] md:bg-[length:650px] h-[650px] md:h-[650px] max-w-7xl  mx-auto w-full">
             <div className="pl-8 pr-3 lg:pl-20  relative ">
               <h1 className=" text-4xl  md:text-7xl text-[#030d54] mb-5 font-black mt-[50px] md:mt-[75px] max-w-xs  md:max-w-xl w-full">
                 <span className="block">
@@ -125,7 +125,7 @@ export default function Home() {
 
         <div className="flex flex-col my-[75px] justify-center items-center ">
           <div className="max-w-5xl w-full   bg-[#eeeeee] md:rounded-3xl  px-8 md:px-12 py-10 flex flex-col ">
-            <h3 className="text-3xl mb-5 text-[#030d54] font-semibold text-center md:text-left">
+            <h3 className="text-3xl mb-5 text-primary font-semibold text-center md:text-left">
               Fat Llama Enterprise
             </h3>
             <div className="flex md:flex-row flex-col-reverse  justify-start md:justify-around">
@@ -135,11 +135,11 @@ export default function Home() {
                   Rental as a Service, our enterprise offering to help brands
                   and retailers launch their own rental services.
                 </p>
-                <button className="bg-blue-800 px-7 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+                <button className="bg-primary px-7 py-2 rounded-3xl text-white text-base hover:bg-primary_light ease-in duration-150">
                   Learn more
                 </button>
               </div>
-              <div className="mb-10  flex flex-1 items-center space-x-36 md:justify-around">
+              <div className="mb-10  flex flex-1 items-center space-x-36 justify-around">
                 <div className="">
                   <Image
                     src="/assets/asset10.svg"
@@ -165,11 +165,10 @@ export default function Home() {
         <div className="relative bg-[url('/assets/download.svg')]  w-full bg-no-repeat bg-[center_center] h-[640px] md:h-[750px]      gap-10 md:bg-[length:100%,100%]   grid md:grid-cols-2   grid-rows-2 md:grid-rows-1 space-x-10 items-center py-10 px-5">
           <div className=" relative">
             <Image
-              src="/assets/asset22.png"
+              src="/assets/slant.png"
               alt="hiscox"
-              width={500}
+              width={600}
               height={501}
-              objectFit="contain"
             />
           </div>
           <div className="">
@@ -189,7 +188,7 @@ export default function Home() {
               //   />
               // </div>
               }
-              <button className="bg-blue-800 px-5 md:px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+              <button className="bg-primary px-5 md:px-10 py-2 rounded-3xl text-white text-base hover:bg-primary_light ease-in duration-150">
                 Learn More
               </button>
             </div>
@@ -198,7 +197,7 @@ export default function Home() {
         <div className="flex flex-col max-w-[1025px] px-5 md:px-5 space-y-20  w-full mx-auto mt-16 ">
           <div className="flex flex-col-reverse md:flex-row justify-center  space-y-10 md:space-y-0  items-center  ">
             <div className="flex-1">
-              <h3 className="text-[#030d54] md:font-bold font-semibold mt-10 md:mt-0 text-2xl md:text-3xl">
+              <h3 className="text-primary md:font-bold font-semibold mt-10 md:mt-0 text-2xl md:text-3xl">
                 Share your stuff, earn cash
               </h3>
               <p className="mt-5 space-y-10 text-[#111111] font-thin">
@@ -212,16 +211,16 @@ export default function Home() {
                 </span>
               </p>
               <div className="flex items-center space-x-10 mt-5">
-                <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+                <button className="bg-primary px-10 py-2 rounded-3xl text-white text-base hover:bg-primary_light ease-in duration-150">
                   Start Earning
                 </button>
               </div>
             </div>
             <div className="flex-1 relative flex justify-center ">
               <Image
-                src="/assets/asset 26.png"
+                src="/assets/bookings.png"
                 alt="hiscox"
-                width={302}
+                width={600}
                 height={570}
               />
             </div>
@@ -230,14 +229,15 @@ export default function Home() {
           <div className="flex md:flex-row justify-center flex-col space-y-10 md:space-y-0  items-center  ">
             <div className="flex-1 relative flex justify-center ">
               <Image
-                src="/assets/asset 27.png"
+                src="/assets/mockup2.png"
                 alt="hiscox"
-                width={302}
-                height={570}
+                width={850}
+                height={670}
+               
               />
             </div>
             <div className="flex-1">
-              <h3 className="text-[#030d54]  md:font-bold font-semibold  text-2xl md:text-3xl">
+              <h3 className="text-primary  md:font-bold font-semibold  text-2xl md:text-3xl">
                 Get access to (almost) anything
               </h3>
               <p className="mt-5 space-y-10 text-[#111111] font-thin">
@@ -250,7 +250,7 @@ export default function Home() {
                 </span>
               </p>
               <div className="flex items-center space-x-10 mt-5">
-                <button className="bg-blue-800 px-10 py-2 rounded-3xl text-white text-base hover:bg-blue-700 ease-in duration-150">
+                <button className="bg-primary px-10 py-2 rounded-3xl text-white text-base hover:bg-primary_light ease-in duration-150">
                   Start borrowing
                 </button>
               </div>

@@ -9,7 +9,7 @@ function Header() {
     <header className="sticky top-0 left-0 bg-white z-50  h-16 md:h-20 border-b font-display flex items-center px-3 md:px-7 justify-between">
       <Link href="/">
         <a className="inline-block">
-          <Image src="/assets/logo.jpg" width={70} height={70} alt="logo" />
+          <Image src="/assets/28BOOKINGS.png" width={150} height={100} alt="logo" />
         </a>
       </Link>
 
@@ -28,7 +28,7 @@ function Header() {
           placeholder="find (almost) anything"
         />
       </div>
-      <ul className="md:flex space-x-16 hidden  text-[#4629d3] text-base font-semibold">
+      <ul className="md:flex space-x-16 hidden  text-primary text-base font-semibold">
         <li>
           <Link href="/">
             <a> Enterprise</a>

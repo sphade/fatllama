@@ -5,7 +5,7 @@
 }
 .lastText {
   animation: fade-in 2s ease forwards 14.5s;
-  color: #00abe9;
+  
   opacity: 0;
   overflow: hidden;
   position: absolute;
@@ -17,7 +17,7 @@
   animation: topToBottom 12.5s ease forwards 0s;
   -ms-animation: topToBottom 12.5s ease forwards 0s;
   -webkit-animation: topToBottom 12.5s ease forwards 0s;
-  color: #00abe9;
+
   opacity: 0;
   overflow: hidden;
   position: absolute;

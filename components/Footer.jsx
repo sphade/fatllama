@@ -5,19 +5,19 @@ function Footer() {
   return (
     <div className="">
       <div className="bg-[#edf8f7] flex py-20 space-y-10 md:space-y-0 px-10 md:px-20 flex-col md:flex-row">
-        <div className="flex-1 grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-y-5">
-          <p className="font-bold text-[#030d54] text-sm capitalize">
+        <div className="flex-1 grid text-primary grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-y-5">
+          <p className="font-bold  text-sm capitalize">
             Tearms of service
           </p>
-          <p className="font-bold text-[#030d54] text-sm capitalize">
+          <p className="font-bold  text-sm capitalize">
             browse items
           </p>
-          <p className="font-bold text-[#030d54] text-sm capitalize">
+          <p className="font-bold  text-sm capitalize">
             how it works
           </p>
-          <p className="font-bold text-[#030d54] text-sm capitalize">policy</p>
-          <p className="font-bold text-[#030d54] text-sm capitalize">FAQs</p>
-          <p className="font-bold text-[#030d54] text-sm capitalize">
+          <p className="font-bold  text-sm capitalize">policy</p>
+          <p className="font-bold  text-sm capitalize">FAQs</p>
+          <p className="font-bold  text-sm capitalize">
             Guarantee
           </p>
         </div>
